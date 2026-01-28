@@ -1,11 +1,9 @@
 ---
-name: "Ahmad Rafi Wirana"
-title: "Computer Science Researcher & Developer"
-summary: "Focused on machine learning and distributed systems. Building scalable solutions and conducting research in computational methods."
+name: "Junho Noh"
+title: "Researcher & Developer"
+summary: "Focused on Digital Forensics and Cybersecurity."
 contact:
-  email: "ahmadrafi9910@gmail.com"
-  github: "ahmadrafidev"
-  linkedin: "ahmadrafiwirana"
-  twitter: "rafiwiranaa"
-  google_scholar: "ahmadrafiwirana"
---- 
+  email: "njh0625@korea.ac.kr"
+  github: "d2n0s4ur"
+  linkedin: "d2n0s4ur"
+---

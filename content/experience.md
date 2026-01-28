@@ -1,20 +1,20 @@
 ---
 experience:
-  - role: "Senior Software Engineer"
-    company: "Tokopedia"
-    companyUrl: "https://www.tokopedia.com"
-    period: "2022-2024"
+  - role: "Co-Founder & CTO"
+    company: "Sterri"
+    companyUrl: "https://warru.io"
+    period: "2023-2026"
     highlights:
-      - "Led development of distributed systems processing millions of requests daily"
-      - "Implemented machine learning models for real-time data analysis"
-      - "Mentored junior developers and established best practices"
+      - "Leading the development of a cybersecurity startup focused on innovative solutions."
+      - "Overseeing technical strategy and implementation of security products."
+      - "Collaborating with cross-functional teams to drive product development."
 
-  - role: "Software Engineer"
-    company: "Gojek"
-    companyUrl: "https://www.gojek.com"
-    period: "2020-2022"
+  - role: "Undergraduate Researcher"
+    company: "DFRC, Korea University(Advisor: Prof. SangJin Lee, JeongHeum Park)"
+    companyUrl: "https://dfrc.korea.ac.kr"
+    period: "2023"
     highlights:
-      - "Developed scalable backend services using Node.js and Python"
-      - "Improved system performance by 40% through optimization"
-      - "Collaborated with cross-functional teams on major features"
---- 
+      - "Conducting research on digital forensics and cybersecurity topics."
+      - "Developing tools and techniques for digital investigations."
+      - "Collaborating with a team of researchers and professionals in the field."
+---
