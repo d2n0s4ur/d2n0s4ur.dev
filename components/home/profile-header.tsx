@@ -19,7 +19,7 @@ export function ProfileHeader({ profile }: ProfileHeaderProps) {
             alt={profile.name}
             width={180}
             height={180}
-            className="rounded-[9999px] object-cover border border-zinc-200 dark:border-zinc-700 shadow-sm"
+            className="rounded-[9999px] object-cover border border-zinc-200 dark:border-zinc-700 shadow-sm bg-white"
             priority
           />
         </div>

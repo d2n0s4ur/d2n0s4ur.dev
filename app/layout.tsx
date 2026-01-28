@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import PrintHandler from "@/components/PrintHandler";
 
@@ -24,17 +25,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Scho - A Sleek Resume Template",
-    template: "%s | Scho"
+    default: "d2n0s4ur",
+    template: "%s | d2n0s4ur",
   },
-  description: "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
-  keywords: ["academic", "portfolio", "research", "scholar", "education", "university"],
+  description:
+    "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
+  keywords: [
+    "academic",
+    "portfolio",
+    "research",
+    "scholar",
+    "education",
+    "university",
+  ],
   authors: [{ name: "Ahmad Rafi Wirana" }],
   creator: "Rafi",
   metadataBase: new URL("https://scho.vercel.app/"),
   openGraph: {
     title: "Scho - A Sleek Resume Template",
-    description: "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
+    description:
+      "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
     url: "https://scho.vercel.app/",
     siteName: "Scho",
     locale: "en_US",
@@ -44,14 +54,15 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Scho - Professional Portfolio"
-      }
-    ]
+        alt: "Scho - Professional Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Scho - A Sleek Resume Template",
-    description: "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
+    description:
+      "A modern and sleek academic portfolio platform for researchers, scholars, and thinkers.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -60,9 +71,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   verification: {
@@ -79,15 +90,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`scroll-smooth ${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`scroll-smooth ${geistSans.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className="font-sans bg-white text-black dark:bg-zinc-950 dark:text-zinc-100 antialiased">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <PrintHandler />
-          <div className="print-container">
-            {children}
-          </div>
+          <div className="print-container">{children}</div>
         </ThemeProvider>
       </body>
+      <GoogleTagManager gtmId="GTM-WV78MMC4" />
     </html>
   );
 }
