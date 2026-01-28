@@ -4,16 +4,21 @@ skills:
     items:
       - "Python"
       - "JavaScript/TypeScript"
-      - "Go"
-      - "Java"
-      - "C++"
+      - "C/C++"
+
+  - category: "Tools & Platforms"
+    items:
+      - "Git"
+      - "Linux"
+      - "AWS"
+      - "GCP"
 
   - category: "Technologies & Frameworks"
     items:
       - "React"
       - "Node.js"
-      - "TensorFlow"
+      - "NestJS"
+      - "Next.js"
       - "Docker"
-      - "Kubernetes"
-  
---- 
+      - "Terraform"
+---
